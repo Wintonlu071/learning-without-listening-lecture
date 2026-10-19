@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>__TITLE__</title>
+<script>
+MathJax = { tex: { inlineMath: [['\\(','\\)'],['$','$']], displayMath: [['$$','$$'],['\\[','\\]']] }, svg: { fontCache: 'none' } };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<style>
+@page { size: A4; margin: 16mm 13mm; }
+body { font-family: "Microsoft YaHei","Segoe UI",Arial,sans-serif; font-size: 10.2pt; line-height: 1.55; color: #17212b; margin:0; }
+h1 { font-size: 19pt; color:#0f3a5c; margin: 0 0 2px 0; }
+.subtitle { color:#3a5a74; font-size: 12pt; margin-bottom: 10px; }
+h2 { font-size: 13.5pt; color:#0f3a5c; border-bottom: 2px solid #2c6e9c; padding-bottom: 3px; margin: 6px 0 8px 0; }
+h3 { font-size: 11pt; color:#1c577e; margin: 12px 0 4px 0; }
+h4 { font-size: 10.5pt; color:#333; margin: 10px 0 3px 0; }
+p { margin: 5px 0; }
+ul, ol { margin: 5px 0 5px 22px; padding: 0; }
+li { margin: 2px 0; }
+table { border-collapse: collapse; width: 100%; margin: 7px 0; font-size: 9.3pt; }
+th, td { border: 1px solid #b9c6d1; padding: 3px 6px; text-align: left; vertical-align: top; }
+th { background: #e7eff6; color:#0f3a5c; }
+.box { background: #f1f6fb; border-left: 4px solid #2c6e9c; padding: 7px 10px; margin: 8px 0; }
+.thm { background: #fdf3f3; border-left: 4px solid #b03a3a; padding: 7px 10px; margin: 8px 0; }
+.eg { background: #f2f7f1; border-left: 4px solid #3a7d4a; padding: 7px 10px; margin: 8px 0; }
+.q { margin: 12px 0; padding: 8px 10px; border: 1px solid #d5dde5; border-radius: 4px; background:#fbfcfe; }
+.qhead { font-weight: bold; color:#0f3a5c; }
+.sol { color: #165a35; }
+.pb { page-break-before: always; }
+.small { font-size: 9pt; color:#555; }
+code { font-family: Consolas, monospace; }
+pre { background:#f6f8fa; border:1px solid #e1e4e8; border-radius:4px; padding:8px; overflow:auto; }
+.cover { text-align:center; padding-top: 30mm; }
+.cover .tag { display:inline-block; background:#0f3a5c; color:#fff; padding:4px 14px; border-radius:20px; font-size:11pt; letter-spacing:1px; }
+.cover h1 { font-size: 24pt; margin-top: 16px; }
+.scope { margin: 24px auto; width: 78%; border:1px solid #b9c6d1; border-radius:6px; padding: 12px 16px; text-align:left; font-size:10.5pt; background:#f7fafc; }
+svg text { font-family: "Microsoft YaHei","Segoe UI",Arial,sans-serif; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <span class="tag">__TAG__</span>
+  <h1>__TITLE__</h1>
+  <div class="subtitle">__SUBTITLE__</div>
+</div>
+
+<div class="pb"></div>
+__BODY__
+
+</body>
+</html>

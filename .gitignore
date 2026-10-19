@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 凭证/密钥（绝对不提交）
+auth.json
+.env
+*.env
+*.key
+*.pem
+
+# 课程原始素材（仓库只含技能自身）
+*.m4a
+*.mp3
+*.wav
+*.pdf
+*.docx
